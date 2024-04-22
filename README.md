@@ -16,4 +16,4 @@ C++ 파일의 수행을 위해 G++, GCC, GDB 등의 설치
 # 3
 패키지의 실행을 위해 ".vscode/tasks.json"의 수정 필요
 
-![Q1_Unshded 결과 화면]([https://github.com/crator99/graphics_tutorial/blob/main/screenshots/task_modify.png](https://github.com/crator99/graphics_4/blob/main/screenshots/HW_Q1.png))
+![Q1_Unshded]([https://github.com/crator99/graphics_tutorial/blob/main/screenshots/task_modify.png](https://github.com/crator99/graphics_4/blob/main/screenshots/HW_Q1.png))
