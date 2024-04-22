@@ -287,7 +287,7 @@ int main(int argc, char* argv[])
         return -1;
     }
 
-    GLFWwindow* window = glfwCreateWindow(n_x, n_y, "Sphere", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(n_x, n_y, "HW4_Q1", NULL, NULL);
     
     if(!window){
         std::cerr << "Failed to create GLFW window" << std::endl;
