@@ -1,0 +1,12 @@
+build/.cmake
+build/CmakeFiles
+build/Testing
+build/Makefile
+build/CMakeCache.txt
+build/cmake_install.cmake
+build/compile_commands.json
+build/MyExecutable.exe
+build/CPackSourceConfig.cmake
+build/CTestTestfile.cmake
+build/DartConfiguration.tcl
+build/CPackConfig.cmake
