@@ -26,4 +26,5 @@ C++ 파일의 수행을 위해 G++, GCC, GDB 등의 설치
 # 3
 
 결과 화면
+
 ![Q1_Unshded](https://github.com/crator99/graphics_4/blob/main/screenshots/HW_Q1.png)
