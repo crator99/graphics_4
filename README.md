@@ -21,7 +21,7 @@ C++ 파일의 수행을 위해 G++, GCC, GDB 등의 설치
 
 1. Visual Studio Code 실행 후, 다운로드 한 파일을 프로젝트 폴더로 설정
 2. CMake : Build로 빌드 - CMakeLists.txt 를 참고하여 자동 빌드)
-3. CMake : ctrl + F5로 실행 결과 확인
+3. CMake : Debug | (ctrl + F5)로 실행 결과 확인
 
 # 3
 
