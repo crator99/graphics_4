@@ -1,0 +1,23 @@
+# ninja log v5
+13	352	7391928494499259	CMakeFiles/MyExecutable.dir/include/glad/glad.c.obj	51323e16d037c17e
+3	14	0	clean	8c45b54705a541e8
+6	440	7391893795567594	CMakeFiles/MyExecutable.dir/src/sphere_scene.cpp.obj	4ea5fb749bf94933
+3	530	7391930314678566	CMakeFiles/MyExecutable.dir/src/main.cpp.obj	7b4b30803604e0b6
+530	826	7391930316240698	D:/graphics_5/build/MyExecutable.exe	daf495c542338e4f
+2	162	7391931502502539	build.ninja	8af69a859cab2c5f
+3	525	7391933133371550	CMakeFiles/MyExecutable.dir/src/main.cpp.obj	7b4b30803604e0b6
+526	854	7391933135402018	D:/graphics_5/build/MyExecutable.exe	daf495c542338e4f
+3	521	7391933378904790	CMakeFiles/MyExecutable.dir/src/main.cpp.obj	7b4b30803604e0b6
+522	784	7391933380310710	D:/graphics_5/build/MyExecutable.exe	daf495c542338e4f
+3	525	7391933514327125	CMakeFiles/MyExecutable.dir/src/main.cpp.obj	7b4b30803604e0b6
+525	832	7391933516201684	D:/graphics_5/build/MyExecutable.exe	daf495c542338e4f
+3	514	7391934258342452	CMakeFiles/MyExecutable.dir/src/main.cpp.obj	7b4b30803604e0b6
+514	767	7391934259690467	D:/graphics_5/build/MyExecutable.exe	daf495c542338e4f
+3	531	7391934876848717	CMakeFiles/MyExecutable.dir/src/main.cpp.obj	7b4b30803604e0b6
+532	854	7391934878879488	D:/graphics_5/build/MyExecutable.exe	daf495c542338e4f
+3	509	7391935092538208	CMakeFiles/MyExecutable.dir/src/main.cpp.obj	7b4b30803604e0b6
+510	767	7391935093943774	D:/graphics_5/build/MyExecutable.exe	daf495c542338e4f
+2	521	7391935252152952	CMakeFiles/MyExecutable.dir/src/main.cpp.obj	7b4b30803604e0b6
+522	838	7391935254027235	D:/graphics_5/build/MyExecutable.exe	daf495c542338e4f
+3	516	7391936063852418	CMakeFiles/MyExecutable.dir/src/main.cpp.obj	7b4b30803604e0b6
+516	773	7391936065258592	D:/graphics_5/build/MyExecutable.exe	daf495c542338e4f

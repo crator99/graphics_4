@@ -20,12 +20,23 @@ set(HEADERS
 )
 enable_testing()
 
-add_executable(MyExecutable ${CMAKE_SOURCE_DIR}/src/sphere_scene.cpp ${CMAKE_SOURCE_DIR}/include/GLAD/glad.c)
+add_executable(MyExecutable ${CMAKE_SOURCE_DIR}/src/main.cpp ${CMAKE_SOURCE_DIR}/include/GLAD/glad.c)
 
 find_package(OpenGL REQUIRED)
 target_link_libraries(MyExecutable PRIVATE OpenGL::GL)
 
 target_link_libraries(MyExecutable PRIVATE ${CMAKE_SOURCE_DIR}/lib/libglfw3dll.a)
+
+add_custom_command(TARGET MyExecutable POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy
+        ${CMAKE_SOURCE_DIR}/lib/glfw3.dll
+        $<TARGET_FILE_DIR:MyExecutable>
+)
+add_custom_command(TARGET MyExecutable POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy
+        ${CMAKE_SOURCE_DIR}/src/bunny.obj
+        $<TARGET_FILE_DIR:MyExecutable>
+)
 
 set_target_properties(MyExecutable PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/build)
 
